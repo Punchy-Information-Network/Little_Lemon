@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    border: 1px green solid;
+    margin: 35px;
+   
+}
+div{
+background-color: #9c9c9c;
+}
+.head{
+    display:block;
+    text-align: center;
+    margin-top: 5px;
+}
+nav{
+    text-align: center;
+    background-color: rgb(0, 255, 26);
+    width: auto;
+    height: auto;
+    margin: 15px;
+    box-shadow: 5px 5px 5px 5px #333;
+}
+.container a{
+    padding: 10px;   
+    background-color: rgb(2, 70, 2);
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 25%;
+    margin: 25px;
+    box-shadow: 2px 2px 2px 2px #3e8504;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    margin: 25px;
+    text-align: center;
+}
+
+
+a:link {
+    color: rgb(255, 255, 255);
+
+}
+a:visited {
+    color: rgb(251, 255, 0);
+
+}
+a:hover {
+    color: rgb(6, 35, 0);
+    background-color: white;
+    font-size: 20px;
+    border-bottom: 2px solid rgb(12, 12, 12);
+
+}
+a:active {
+    color: rgb(252, 248, 3);
+    background-color: rgb(1, 11, 0);
+   
+}
+.ads{
+    margin: 25px;
+    
+}
+.promotion{
+   background-image: url(../img/banner.png);
+   background-position: center;
+   width: 750px;
+   height: 422px;
+  background-size: 100%;
+}
+
+.promotion > h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    margin: 25px;
+    margin-top: 15%;
+    text-align: center;    
+}
+
+section{
+    display: flex;
+}
+
+article{
+    flex: 1;
+    margin: 25px;
+    
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#info{
+    background-color: #000000;
+    margin: 25px;
+}
+.info1 > img, .info2 > img, .info3 > img{
+    margin: 25px;
+    width: 300px;
+    height: 199px;
+}
+
+.info1 > p, .info2 > p, .info3 > p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.read{
+    background-color: yellowgreen;
+    border-radius: 50%;
+    margin-left: 30%;
+}
+.cont2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #333;
+    color: white;
+}
+.art1{
+    flex-grow:50%;
+    flex-basis: auto;}
+
+.art2 {
+    flex-grow:25%;
+    flex-basis: 10%;
+}
+.menu {
+    flex-grow:25%;
+    flex-basis: 40%;
+}
+.cont2 h2{
+    color: green;
+    margin: 5px;
+}
+
+.art1, .art2, .menu{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+footer{
+    display: flex;
+       
+}
+
+footer section{
+    flex: 1;
+    
+}
+footer section.scroll a {
+    margin: 8%;
+
+    color: rgb(255, 255, 255);
+    background-color: #ffaa00;
+    width: 15%;
+    text-decoration: none;
+    text-align: center;
+    
+}
+footer section.scroll a:hover {
+    color: rgb(49, 146, 0);
+}
+#copy > h3{
+    color: #ab8403;
+    margin-top: 3em;
+}
